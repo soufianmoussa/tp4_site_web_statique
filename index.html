@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site web statique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--  header -->
+    <header class="header-container">
+        <h1>Travaux Pratiques Numéro 2 : Création d'un Site Web Statique</h1>
+        <h3>Module : Architecture Client-Serveur</h3>
+        <p>Année Universitaire : 2016/2017</p>
+    </header>
+    <!--  end header -->
+    <hr>
+    <!--  begin list  -->
+    <ul class="list">
+        <li><a href="index.html" target="_self">Accueil</a></li>
+
+              <select name="html" id="html"><option value="HTML">HTML</option></select>
+              <select name="css" id="css"><option value="CSS">CSS</option></select>
+              <select name="JavaScript" id="javascript"><option value="JavaScript">JavaScript</option></select>
+              <select name="php" id="php"><option value="PHP">PHP</option></select>
+              <select name="TP" id="tp"><option value="TP">TP</option></select>
+              <select name="TD" id="td">
+                  <ul>
+                      <option value="TD">TP</option>
+                      <option value="TD 1">TP 1<a href="td1.pdf"></a></option>
+                      <option value="TD 2">TP 2<a href="td2.pdf"></a></option>
+                      <option value="TD 3">TP 3<a href="td3.pdf"></a></option>
+                  </ul>
+              </select>
+
+        <li><a href="examen.html" target="_blank">Examen</a></li>
+         <!--  end list  -->
+    </ul>
+    <hr>
+    
+    <main class="wrap"> <!-- ROW -->
+
+        <!-- #aside -->
+        <aside>         <!-- COLUMN -->
+            <h1>Votre photo</h1>
+            <img src="images/photo.png" alt="simple_photo">
+            <ul>
+                <li><a href="blog.html">Mon blog</a></li>
+                <li><a href="site_officiel.html">site Officiel</a></li>
+            </ul>
+        </aside>
+        <!-- end #aside -->
+        <!-- #section -->
+        <section>
+            <!-- #artice Client/Serveur -->
+            <article>   <!-- COLUMN -->
+                <h2>13/02/2017: Introduction a l'Architecture Client/Serveur</h2>
+                <p class="center">Première séance :</p>
+                <div class="wrap">
+                    <p>Nous avons traité quelques notions fondamentales : Internet, Web, URL, Web Statique, Page web dynamique et le Web 2.0.</p>   
+                    <img src="images/web4.png" alt="">
+                </div>
+                
+            </article>
+            <!-- #artice HTML -->
+            <article>   <!-- COLUMN -->
+                <h2>13/02/2017: HTML hypertext markup language</h2>
+                <p class="center">Deuxième séance :</p>
+                <div class="wrap">
+                    <p>Les points traités : Historique, structure d'une page, validation du code HTML, test de portabilité, tableaux de formulaires.</p>   
+                    <img src="images/HTML.png" alt="">
+                </div>
+                
+            </article>
+            <!-- #artice CSS -->
+            <article>   <!-- COLUMN -->
+                <h2>13/02/2017: CSS Cascading Style Sheets</h2>
+                <p class="center">Troisième séance :</p>
+                <div class="wrap">
+                    <p>Les points traités : Historique, Syntaxe CSS, Sélecteur, Propriétés CSS les plus utilisées, mise en forme et mise en page.</p>   
+                    <img src="images/css3.png" alt="">
+                </div>
+                
+            </article>
+            <div class="img-center">
+                <img src="images/HMTL5_W3C1.png" alt="html_ico">
+                <img src="images/CSS3_W3C.png" alt="html_ico">
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
